@@ -1,0 +1,12 @@
+# Error 400 - Bad Request
+ErrorDocument 404 /error404.html
+
+# Error 500 - Internal Server Error
+ErrorDocument 500 /error500.html
+
+RewriteEngine On
+# Riscrittura URL per Home
+RewriteRule ^home/?$ [L]
+
+# Riscrittura URL per Videocorsi
+RewriteRule ^videocorsi/?$ videocorsi.html [L]
