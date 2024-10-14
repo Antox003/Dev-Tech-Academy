@@ -6,7 +6,10 @@ ErrorDocument 500 /error500.html
 
 RewriteEngine On
 # Riscrittura URL per Home
-RewriteRule ^home/?$ [L]
+RewriteRule ^home/?$ index.html [L]
 
 # Riscrittura URL per Videocorsi
 RewriteRule ^videocorsi/?$ videocorsi.html [L]
+
+# Riscrittura URL per Cookie Page
+RewriteRule ^cookie-page/?$ cookie-page.html [L]

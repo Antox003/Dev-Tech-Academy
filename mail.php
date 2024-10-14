@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $messaggio = $_POST['messaggio'];
 
     // Configura l'email
-    $to = "antonio03.margio@gmail.com"; // Sostituisci con il tuo indirizzo email
+    $to = "devtech.academy.it@gmail.com"; // Sostituisci con il tuo indirizzo email
     $subject = "Nuovo messaggio da Dev Tech";
     $body = "Hai ricevuto un nuovo messaggio dal form di contatto:\n\n";
     $body .= "Nome: $nome\n";
@@ -45,7 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <br>
     <h5>Abbiamo ricevuto la tua richiesta, ti risponderemo nel più breve tempo possibile!</h5>
     <div class="container-button">
-        <a href="index.html"><button>Torna alla home</button></a>
+        <a href="home"><button>Torna alla home</button></a>
     </div>
 </body>
 </html>
