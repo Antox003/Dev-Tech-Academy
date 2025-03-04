@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*
+ font-family: "Bebas Neue", sans-serif;
+ font-family: "Roboto", sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #000000;
+}
+
+/*************************************/
+
+.infotitle{
+    color: #FFF500;
+    text-align: start;
+    font-size: 40px;
+    margin: 50px;
+}
+
+.infocontainer{
+    margin: 50px;
+}
+
+.infocontainer h3{
+    font-size: 25px;
+    color: #FFF500;
+}
+
+.infocontainer ul{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    line-height: 150%;
+}
+
+.infocontainer ul li{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    line-height: 150%;
+}
+
+.infocontainer p{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    line-height: 150%;
+}
+
+.infocontainer .color{
+    color: #FFF500;
+}
+
+.infocontainer p a{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    transition: 0.2s ease-in;
+    text-decoration: underline;
+}
+
+.infocontainer p a:hover{
+    color: #FFF500;
+    transition: 0.2s ease-in;
+}
+
+.infocontainer h6{
+    color: #FFF500;
+    font-size: 20px;
+}
+
+/*AGGIUNTE PER PRIVACY POLICY*/
+.infocontainer .date {
+    font-size: 15px;
+}
+
+.infocontainer .date{
+    display: flex;
+    align-items: center;
+}
+
+.infocontainer .list{
+    list-style: disc;
+    font-size: 20px;
+}
+
+.infocontainer .list-item{
+    color: #FFF500;
+    font-weight: 700;
+}
+
+@media only screen and (max-width:1000px) {
+
+    header .container{
+        width: 80%;
+    }
+
+    .infotitle{
+        text-align: center;
+        font-size: 22px;
+        margin: 30px;
+    }
+
+    .infocontainer{
+        margin: 30px;
+    }
+
+    .infocontainer p{
+        font-size: 15px;
+        font-family: "Roboto", sans-serif;
+        line-height: 150%;
+    }
+
+    /*AGGIUNTE PER PRIVACY POLICY*/
+
+    .infocontainer .list{
+        list-style: disc;
+        font-size: 15px;
+    }
+
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*
+ font-family: "Bebas Neue", sans-serif;
+ font-family: "Roboto", sans-serif;
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+footer{
+    background: #000000;
+}
+
+footer .container-footer p{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+footer .container-footer .document{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 10px;
+    text-align: center;
+}
+
+footer .container-footer .document a{
+    color: #FFF500;
+    transition: .3s ease-in;
+}
+
+footer .container-footer .document a:hover{
+    transform: scale(1.1);
+    transition: .3s ease-in;
+}
+
+@media only screen and (max-width:1000px) {
+	
+	footer .container-footer p{
+        font-size: 12px;
+    }
+
+    footer .container-footer .document a{
+        font-size: 12px;
+
+    }
+
+}

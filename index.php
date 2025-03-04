@@ -1,3 +1,7 @@
+<?php
+    include 'fragments/header.php'
+?>    
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,45 +11,13 @@
     <meta name="google-site-verification" content="gzv4hmAxXoQh2XTBfCoRXK_WIlaqiahiOWThoDT_xzQ" />
     <title>Home | Dev Tech </title>
     <link rel="canonical" href="https://www.devtechacademy.it/"/>
-    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="style/style-home.css">
     <link rel="icon" href="./img/logo_black_circle.png" type="image/png">
-    <script src="https://kit.fontawesome.com/3a13a0f4da.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  
-    <header>
-        <div class="container">
-            <input type="checkbox" name="" id="check">
-            <div class="logo-container">
-                <img src="./img/logo_completo.png" alt="">
-            </div>
-
-            <div class="nav-btn">
-                <div class="nav-links">
-                    <ul>
-                        <li class="nav-link" style="--i: .6s">
-                            <a href="home">Home</a>
-                        </li>
-                        <li class="nav-link" style="--i: .6s">
-                            <a href="videocorsi">Videocorsi</a>
-                        </li>
-                        <a class="button" href="home#contact" id="contact-button" style="--i: .6s">
-                            <button>Contatti</button>
-                        </a>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="hamburger-menu-container">
-                <div class="hamburger-menu">
-                    <div></div>
-                </div>
-            </div>
-        </div>
-    </header>
 
     <script>
-        document.getElementById('contact-button').addEventListener('click', function() {
+        document.getElementById('contact-nav').addEventListener('click', function() {
             document.getElementById('check').checked = false;
         });
     </script>
@@ -62,7 +34,7 @@
     <br>
     <br>
     <br>
-
+<!--
     <div class="popup">
         <div class="popup-content">
             <img src="img/close.png" alt="" class="close">
@@ -91,7 +63,7 @@
             </div>
         </div>
     </div>
-
+    -->
     <section class="about">
         <div class="content">
             <h1>Scopri il futuro del coding con <span class="color">DEV TECH</span></h1>
@@ -398,7 +370,7 @@
                 <br>
                 <br>
                 <div class="policy">
-                    <p><input type="checkbox" name="" class="checkbox" required> Selezionando questa casella acconsenti al trattamento dei tuoi dati secondo la <a href="./doc/Policy_trattamento_dati.pdf" target="_blank">policy del trattamento dei dati & privacy</a></p>
+                    <p><input type="checkbox" name="" class="checkbox" required> Selezionando questa casella acconsenti al trattamento dei tuoi dati secondo la nostra <a href="privacy-policy">Privacy Policy</a></p>
                 </div>
                 <br>
                 <input type="submit" value="Invia">
@@ -424,19 +396,10 @@
     <br>
     <br>
     <br>
-    <footer>
-        <div class="container-footer">
-            <p>Dev Tech Academy &copy; 2024, Tutti i diritti riservati</p>
-            <div class="document">
-                <a href="cookie-page">Cookie Policy</a>
-                <p>ㅤ||ㅤ</p>
-                <a href="./doc/Policy_Trattamento_Dati.pdf" target="_blank">Trattamento Dati</a>
-            </div>
-        </div>
-    </footer>
-    <br>
-    <br>
-    <script src="script.js"></script>
-
+    <script src="script/script-home.js"></script>
 </body>
 </html>
+
+<?php
+    include 'fragments/footer.php'
+?> 

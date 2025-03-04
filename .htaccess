@@ -1,15 +1,34 @@
-# Error 400 - Bad Request
-ErrorDocument 404 /error404.html
+# Error 404 - Not Found
+ErrorDocument 404 /Dev-Tech/error404.html
 
 # Error 500 - Internal Server Error
-ErrorDocument 500 /error500.html
+ErrorDocument 500 /Dev-Tech/error500.html
 
 RewriteEngine On
 # Riscrittura URL per Home
-RewriteRule ^home/?$ index.html [L]
+RewriteRule ^home/?$ index.php [L]
 
 # Riscrittura URL per Videocorsi
-RewriteRule ^videocorsi/?$ videocorsi.html [L]
+RewriteRule ^videocorsi/?$ videocorsi.php [L]
+
+# Riscrittura URL per Login
+RewriteRule ^login/?$ login.php [L]
+
+# Riscrittura URL per Registrazione
+RewriteRule ^registrazione/?$ registrazione.php [L]
+
+
+# Riscrittura URL per Profilo
+RewriteRule ^profilo/?$ profilo.php [L]
 
 # Riscrittura URL per Cookie Page
-RewriteRule ^cookie-page/?$ cookie-page.html [L]
+RewriteRule ^cookie-page/?$ cookie-page.php [L]
+
+# Riscrittura URL per Privacy Policy
+RewriteRule ^privacy-policy/?$ privacy-policy.php [L]
+
+# Riscrittura URL per Termini & Condizioni
+RewriteRule ^termini-condizioni/?$ termini-condizioni.php [L]
+
+php_flag display_errors On
+

@@ -1,53 +1,22 @@
+<?php
+include 'fragments/header.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cookie Policy | Dev Tech </title>
-    <link rel="stylesheet" href="style-info.css">
-    <link rel="icon" href="./img/logo_black_circle.png" type="image/png">
-    <script src="https://kit.fontawesome.com/3a13a0f4da.js" crossorigin="anonymous"></script>
+    <title>Cookie Policy | Dev Tech</title>
+    <link rel="stylesheet" href="style/style-info.css">
+    <link rel="icon" href="./img/globe.png" type="image/png">
 </head>
 <body>
-    <script src="script.js"></script>
-
-    <header>
-        <div class="container">
-            <input type="checkbox" name="" id="check">
-            <div class="logo-container">
-                <img src="./img/logo_completo.png" alt="">
-            </div>
-
-            <div class="nav-btn">
-                <div class="nav-links">
-                    <ul>
-                        <li class="nav-link" style="--i: .6s">
-                            <a href="home">Home</a>
-                        </li>
-                        <li class="nav-link" style="--i: .6s">
-                            <a href="videocorsi">Videocorsi</a>
-                        </li>
-                        <a class="button" href="home#contact" id="contact-button"  style="--i: .6s">
-                            <button>Contatti</button>
-                        </a>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="hamburger-menu-container">
-                <div class="hamburger-menu">
-                    <div></div>
-                </div>
-            </div>
-        </div>
-    </header>
-
 <br>
 <br>
 <br>
 <br>
 <br>
-
 <div class="infotitle">
     <h1>Cookie Policy</h1>
 </div>
@@ -134,9 +103,11 @@
             Se hai domande o dubbi riguardo questa Cookie Policy, puoi contattarci ai seguenti recapiti:
         </p>
         <p>
-            <b><span class="color"> Email: </span></b> devtech.academy.it@gmail.com</b>
+            <b><span class="color"> Nome: </span></b>Dev Tech Academy
             <br>
-            <b><span class="color"> Telefono: </span></b> +39 351 950 8859
+            <b><span class="color"> Email: </span></b>devtech.academy.it@gmail.com
+            <br>
+            <b><span class="color"> Telefono: </span></b>+39 351 950 8859
         </p>
     </div>
 
@@ -169,20 +140,9 @@
 
 </div>
 
-<br>
-<br>
-<br>
-<br>
-
-<footer>
-    <div class="container-footer">
-        <p>Dev Tech Academy &copy; 2024, Tutti i diritti riservati</p>
-        <div class="document">
-            <a href="cookie-page">Cookie Policy</a>
-            <p>ㅤ||ㅤ</p>
-            <a href="./doc/Policy_Trattamento_Dati.pdf" target="_blank">Trattamento Dati</a>
-        </div>
-    </div>
-</footer>
 </body>
 </html>
+
+<?php
+    include 'fragments/footer.php';
+?>

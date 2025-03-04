@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $messaggio = $_POST['messaggio'];
 
     // Configura l'email
-    $to = "devtech.academy.it@gmail.com"; // Sostituisci con il tuo indirizzo email
+    $to = "devtech.academy.it@gmail.com";
     $subject = "Nuovo messaggio da Dev Tech";
     $body = "Hai ricevuto un nuovo messaggio dal form di contatto:\n\n";
     $body .= "Nome: $nome\n";
@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Email inviata | Dev Tech</title>
-    <link rel="stylesheet" href="style-php.css">
+    <link rel="stylesheet" href="style/style-mail.css">
     <link rel="icon" href="./img/logo_black_circle.png" type="image/png">
 </head>
 <body>
