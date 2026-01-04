@@ -13,7 +13,7 @@
     <br>
     <footer>
         <div class="container-footer">
-            <p>Dev Tech Academy &copy; 2025, Tutti i diritti riservati</p>
+            <p>Dev Tech Academy &copy; 2026, Tutti i diritti riservati</p>
             <div class="document">
                 <a href="cookie-page">Cookie Policy</a>
                 <p>ㅤ||ㅤ</p>

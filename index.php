@@ -34,7 +34,7 @@
     <br>
     <br>
     <br>
-<!--
+
     <div class="popup">
         <div class="popup-content">
             <img src="img/close.png" alt="" class="close">
@@ -63,7 +63,7 @@
             </div>
         </div>
     </div>
-    -->
+    
     <section class="about">
         <div class="content">
             <h1>Scopri il futuro del coding con <span class="color">DEV TECH</span></h1>

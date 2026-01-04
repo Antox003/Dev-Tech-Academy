@@ -1,7 +1,3 @@
-<?php
-    include_once 'session.php';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +10,6 @@
     
     <header>
         <div class="container">
-            
             <input type="checkbox" name="" id="check">
             <div class="logo-container">
                 <img src="./img/logo_completo.png" alt="">
@@ -29,20 +24,9 @@
                         <li class="nav-link" style="--i: .6s">
                             <a href="videocorsi">Videocorsi</a>
                         </li>
-                        <li class="nav-link" id="contact-nav" style="--i: .6s">
-                            <a href="home#contact">Contatti</a>
-                        </li>
-                        
-                        <?= $logged_in 
-                        ? '<li class="nav-link" style="--i: .6s"><a href="profilo"> <img src="./img/user.png" alt=""> </a></li>'
-                        : '<li></li>'
-                        ?>
-
-                        <?= $logged_in 
-                        ? '<li><a class="button" href="session.php?logout" id="contact-button" style="--i: .6s"> <button>Esci</button> </a></li>'
-                        : '<li><a class="button" href="login" id="contact-button" style="--i: .6s"> <button>Accedi</button> </a></li>'
-                        ?>
-
+                        <a class="button" href="home#contact" id="contact-button" style="--i: .6s">
+                            <button>Contatti</button>
+                        </a>
                     </ul>
                 </div>
             </div>
@@ -52,9 +36,14 @@
                     <div></div>
                 </div>
             </div>
-
         </div>
     </header>
+
+    <script>
+        document.getElementById('contact-button').addEventListener('click', function() {
+            document.getElementById('check').checked = false;
+        });
+    </script>
 
 </body>
 </html>

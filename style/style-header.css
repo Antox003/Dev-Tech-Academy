@@ -12,6 +12,15 @@
     font-family: "Bebas Neue", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #000000;
+}
+
+
 ul{
     list-style: none;
 }
@@ -23,6 +32,7 @@ a{
 header{
     display: flex;
     justify-content: center;
+    margin-right: 18px;
 }
 
 header .container{
@@ -70,11 +80,6 @@ header .logo-container img{
 
 .nav-link{
     position: relative;
-}
-
-.nav-link img{
-    color: #ffffff;
-    width: 45px;
 }
 
 .nav-link > a{
@@ -131,7 +136,7 @@ header .logo-container img{
     height: 2.5rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .hamburger-menu div{
@@ -168,11 +173,11 @@ header .logo-container img{
     top: 50%;
     right: 0rem;
     transform: translateY(-50%);
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
     z-index: 90000;
     cursor: pointer;
-    opacity: 0%;
+    opacity: 0;
     display: none;
 }
 
