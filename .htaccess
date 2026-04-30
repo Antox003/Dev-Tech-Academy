@@ -8,6 +8,9 @@ RewriteEngine On
 # Riscrittura URL per Home
 RewriteRule ^home/?$ index.php [L]
 
+# Riscrittura URL per About
+RewriteRule ^about/?$ about.php [L]
+
 # Riscrittura URL per Videocorsi
 RewriteRule ^videocorsi/?$ videocorsi.php [L]
 
@@ -16,7 +19,6 @@ RewriteRule ^login/?$ login.php [L]
 
 # Riscrittura URL per Registrazione
 RewriteRule ^registrazione/?$ registrazione.php [L]
-
 
 # Riscrittura URL per Profilo
 RewriteRule ^profilo/?$ profilo.php [L]
@@ -29,6 +31,7 @@ RewriteRule ^privacy-policy/?$ privacy-policy.php [L]
 
 # Riscrittura URL per Termini & Condizioni
 RewriteRule ^termini-condizioni/?$ termini-condizioni.php [L]
+
 
 php_flag display_errors On
 

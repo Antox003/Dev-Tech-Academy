@@ -224,7 +224,7 @@
             <h6>Ecco perchè ti sbagli:</h6>
         </div>
         <div class="container-video"> 
-            <video class="responsive-iframe" src="./video/Presentazione.mp4" controls></video>
+            <video class="responsive-iframe" src="./video/Presentazione.mp4" controls ></video>
         </div>
     </section>
     <br>
