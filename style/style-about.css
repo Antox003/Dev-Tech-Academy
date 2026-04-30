@@ -75,6 +75,10 @@ body{
     max-width: 20%;
 }
 
+.secondary-container .dx .social{
+    display: flex;
+}
+
 .color{
     color: #fff500;
 }

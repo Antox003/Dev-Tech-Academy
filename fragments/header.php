@@ -25,7 +25,7 @@
                             <a href="videocorsi">Videocorsi</a>
                         </li>
                          <li class="nav-link" style="--i: .6s">
-                            <a href="about">About</a>
+                            <a href="antonio-margio">About</a>
                         </li>
                         <a class="button" href="home#contact" id="contact-button" style="--i: .6s">
                             <button>Contatti</button>

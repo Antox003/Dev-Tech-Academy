@@ -9,7 +9,7 @@ RewriteEngine On
 RewriteRule ^home/?$ index.php [L]
 
 # Riscrittura URL per About
-RewriteRule ^about/?$ about.php [L]
+RewriteRule ^antonio-margio/?$ antonio-margio.php [L]
 
 # Riscrittura URL per Videocorsi
 RewriteRule ^videocorsi/?$ videocorsi.php [L]
