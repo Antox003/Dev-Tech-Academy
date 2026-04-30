@@ -31,7 +31,12 @@
             "https://github.com/Antox003",
             "https://www.instagram.com/devtechacademy.it/",
             "https://caislab.di.unisa.it/about/",
-            "https://it.pinterest.com/pin/573786808797833172/"
+            "https://it.pinterest.com/pin/573786808797833172/",
+            "https://www.udemy.com/user/antonio-margio/",
+            "https://open.spotify.com/show/4emCztUdNAS67uoauoNFP8",
+            "https://podcasts.apple.com/it/podcast/bit-a-bit/id1768276335",
+            "https://music.amazon.it/podcasts/1548dd23-3e87-4caf-ad95-c537750b519c/bit-a-bit",
+            "https://www.youtube.com/@DevTechAcademy21"
         ]
         }
     </script>
@@ -45,7 +50,7 @@
     <div class="main-container">
         <div class="secondary-container">
             <div class="sx">
-                <img src="./img/me.png" alt="">
+                <img src="./img/me.png" alt="Antonio Margio - Fondatore di DevTech Academy">
             </div>
             <div class="dx">
                 <h1>Full Stack <span class="color">Developer</span> & Web <span class="color">Design</span></h1>
