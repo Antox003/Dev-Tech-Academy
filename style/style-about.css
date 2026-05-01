@@ -62,7 +62,7 @@ body{
     font-size: 1.3rem;
     font-family: "Roboto", sans-serif;
     transition: ease-in 0.2s;
-    width: 20%;
+    width: auto;
 }
 
 .secondary-container .dx a:hover{
@@ -73,6 +73,7 @@ body{
 
 .secondary-container .dx a img{
     max-width: 20%;
+    margin-right: 5px;
 }
 
 .secondary-container .dx .social{

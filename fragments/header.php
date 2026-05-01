@@ -12,7 +12,7 @@
         <div class="container">
             <input type="checkbox" name="" id="check">
             <div class="logo-container">
-                <img src="./img/logo_completo.png" alt="">
+                <img src="./img/logo_completo.png" alt="logo DevTech">
             </div>
 
             <div class="nav-btn">

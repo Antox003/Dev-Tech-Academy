@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Scopri i nostri servizi per la gestione e il conseguimento di certificazioni aziendali. Mondo Certificazioni ti guida passo dopo passo nel miglioramento dei sistemi di gestione, per ottenere certificazioni ISO e garantire la qualità e la sicurezza della tua impresa. Affidati agli esperti del settore!">
+    <meta name="robots" content="noindex">
     <title>Termini e Condizioni | Dev Tech</title>
     <link rel="stylesheet" href="style/style-info.css">
     <link rel="icon" href="./img/globe.png" type="image/png">
